@@ -15,6 +15,7 @@ def edit_utf():
             "In Unicode using one to four one-byte (8-bit) code units.",
             file=fileptr
         )  
+        fileptr.close()
 
 
 def find_sentances():

@@ -18,6 +18,8 @@ def main():
         for word in words:
             if (word.lower() not in dictionary):
                 rezult.append(word)
+        
+        fileptr.close()
     print(rezult)   
 
 

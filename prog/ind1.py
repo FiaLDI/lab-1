@@ -16,6 +16,8 @@ def main():
             if (is_vowel(word[0])):
                 rezult += word.lower() + ' '
             else: rezult += word + ' '
+    
+        fileptr.close()
     print(rezult)   
 
 
