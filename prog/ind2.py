@@ -19,7 +19,6 @@ def main():
             if word.lower() not in dictionary:
                 rezult.append(word)
 
-        fileptr.close()
     print(rezult)
 
 

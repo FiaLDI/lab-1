@@ -19,7 +19,6 @@ def main():
             else:
                 rezult += word + " "
 
-        fileptr.close()
     print(rezult)
 
 
