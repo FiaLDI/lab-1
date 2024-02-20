@@ -5,11 +5,11 @@ import os
 
 
 def rename():
-    os.rename("file2.txt","file3.txt")
+    os.rename("file2.txt", "file3.txt")
 
 
 def remove():
-    os.remove("file3.txt")  
+    os.remove("file3.txt")
 
 
 def create_dir():
@@ -38,6 +38,5 @@ def main():
     ch()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
-        
