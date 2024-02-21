@@ -18,20 +18,10 @@ def main():
         for word in words:
             if word.lower() not in dictionary:
                 rezult.append(word)
-                
+
     print(rezult)
 
 
 if __name__ == "__main__":
     main()
-
-    arr = [
-        1,
-        234234242,
-        234432432432,
-        2423432432,
-        4224342423,
-        42424242,
-        4242424,
-        433,
-    ]
+    
