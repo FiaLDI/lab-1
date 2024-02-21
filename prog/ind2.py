@@ -6,22 +6,33 @@ import sys
 
 def main():
     if len(sys.argv) != 2:
-       print("Не указан путь!", file=sys.stderr)
-       sys.exit(1)
-    
+        print("Не указан путь!", file=sys.stderr)
+        sys.exit(1)
+
     dictionary = ["it", "seems", "a", "rude"]
     rezult = []
     with open(sys.argv[1], "r") as fileptr:
         content = fileptr.readline()
         words = content.split()
-        
+
         for word in words:
-            if (word.lower() not in dictionary):
+            if word.lower() not in dictionary:
                 rezult.append(word)
-        
+
         fileptr.close()
-    print(rezult)   
+    print(rezult)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
+
+    arr = [
+        1,
+        234234242,
+        234432432432,
+        2423432432,
+        4224342423,
+        42424242,
+        4242424,
+        433,
+    ]
