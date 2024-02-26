@@ -5,11 +5,11 @@
 def edit_utf():
     with open("text.txt", "w", encoding="utf-8") as fileptr:
         print(
-            "UTF-8 is a variable-width character encoding used for electronic communication.",
+            "UTF-8 is a variable-width character encoding used.",
             file=fileptr,
         )
         print(
-            "UTF-8 is capable of encoding all 1,112,064 valid character code points.",
+            "UTF-8 is capable of encoding all 1,112,064.",
             file=fileptr,
         )
         print(

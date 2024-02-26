@@ -8,9 +8,8 @@ def is_vowel(letter):
 
 
 def main():
-    
     rezult = ""
-    with open("D:\Python-labs\lab-1\prog\ile2.txt", "r") as fileptr:
+    with open("ile2.txt", "r") as fileptr:
         content = fileptr.readline()
         words = content.split()
 
